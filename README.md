@@ -1,36 +1,62 @@
-# 🎙️ Cursor Voice AI Agent
+# 🎙️ AI Cursor Voice Agent
 
-**Transforming cursor actions into intelligent voice-driven interaction!**
+> A Production-Ready, Stateful AI Voice Agent built using Modern LLM & Agent Architecture.
 
-This module is part of the **Voice-Agent ecosystem**, designed to provide responsive AI-powered voice control and automation features using modern NLP and agent workflows. It focuses on converting cursor events and user prompts into meaningful conversational outcomes — ideal for intuitive AI tooling and voice-guided interfaces.
+An intelligent voice-driven AI system that converts speech into actionable commands using LLMs, structured agent workflows, and scalable backend architecture.
 
----
-
-## 🚀 Key Highlights
-
-✅ **Voice-First Interaction** — Seamless STT → Prompt → Response pipelines  
-✅ **Modular & Extensible** — Plug into larger AI agent systems  
-✅ **Lightweight Python-based logic** — Easy to deploy & integrate  
-✅ **Production Ready** — Suitable for real-world voice-agent workflows
-
-This approach aligns with current voice agent projects that let AI listen, understand, and reply — similar to leading open-source AI voice assistants.:contentReference[oaicite:0]{index=0}
+Designed to demonstrate real-world implementation of:
+- Autonomous AI Agents
+- Model Context Protocol (MCP) patterns
+- Microservices Architecture
+- Stateful Memory Handling
 
 ---
 
-## 🧠 Features
+## 🚀 Problem Statement
 
-✨ Converts cursor events and voice inputs into actionable text  
-🎧 Integrates with speech/text pipelines (STT & LLM)  
-🛠️ Easy to build upon for custom AI tools  
-🧪 Designed for experimentation and extension
+Traditional voice assistants lack:
+- Context awareness
+- Stateful reasoning
+- Action orchestration
+- Production-grade backend design
+
+This project solves that by implementing a **stateful, modular AI Voice Agent** capable of understanding, reasoning, and executing structured actions.
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Solution Overview
 
-### 📌 Prerequisites
-Make sure you have:
+Voice Input → Speech-to-Text → LLM Processing → Agent Decision Layer → Action Execution → Response Output
 
-```bash
-python3.9+
-pip install -r requirements.txt
+The system is designed with clear separation of:
+- AI Logic Layer
+- Agent Orchestration Layer
+- API Layer
+- Persistence Layer
+
+---
+
+## 🏗 Architecture
+
+- **Backend Framework**: Python (FastAPI)
+- **Agent Orchestration**: LangGraph (Stateful AI Agents)
+- **LLM Integration**: OpenAI / Gemini
+- **Memory & Persistence**: MongoDB
+- **Containerization**: Docker
+- **Async Processing**: Python AsyncIO
+
+---
+
+## ✨ Key Features
+
+- Stateful AI Agent with memory persistence
+- Modular microservice-based architecture
+- REST API based design
+- Scalable backend structure
+- LLM-driven intent understanding
+- Production-ready code structure
+
+---
+
+## 📂 Project Structure
+
